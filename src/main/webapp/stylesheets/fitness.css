@@ -1,0 +1,346 @@
+body, html {
+    height: 100%;
+}
+
+#main {
+    position: relative;
+}
+
+.fruit {
+    top: 0;
+    left: 0;
+    background:url(../images/fruits.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+.standard_bold_font {
+    font-family: "Arial Unicode MS";
+    font-weight: bold;
+    color: green;
+}
+
+.button {
+    border: 5px solid green;
+    text-align: center;
+    background-color: lightgreen;
+    width: 100px;
+    padding: 2px;
+    font-family: "Arial Unicode MS";
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+#header {
+    width: 100%;
+    background-color: green;
+    position: relative;
+    height: 5%;
+}
+
+#signup {
+    position: absolute;
+    right: 160px;
+}
+
+#signup_completion_warning{
+    font-size: 120%;
+}
+#login {
+    position: absolute;
+    right: 30px;
+}
+
+#welcome_message {
+    width: 50%;
+    height: 35%;
+    text-align: justify;
+}
+
+.box {
+    border: 5px solid green;
+    font-size: 150%;
+}
+
+.background_pale {
+    background-color: #ffff7f;
+}
+
+.centered {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.form {
+    height: 95%;
+    width: 70%;
+}
+
+.title {
+    font-size: 200%;
+    text-align: center;
+}
+
+.medium_font {
+    font-size: 120%;
+}
+
+.slightly_large_font {
+    font-size: 150%;
+}
+
+#form_errors {
+    font-size: 100%;
+}
+
+.red {
+    color: red;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+}
+
+.help_text {
+    color: darkslategray;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.two_px_padding {
+    padding: 2px;
+}
+
+#signup_pg2_help{
+    font-size: 110%;
+}
+
+#signup_pg2_completion_warning {
+    font-size: 100%;
+}
+
+#signup_pg2_form_errors {
+    font-size: 100%;
+}
+
+.small_font {
+    font-size: 110%;
+}
+
+.fity_percent_font {
+    font-size: 50%;
+}
+
+.hide_background {
+    background-color: #ffff7f;
+    border-color: #ffff7f;
+}
+
+.small_picture {
+    height: 20px;
+    width: 20px;
+}
+
+#FoodDatabaseTable td, #FoodDatabaseTable th {
+    padding: 2px;
+    text-align: center;
+}
+
+#dp {
+    z-index: 1;
+    background-color: floralwhite;
+    position: relative;
+}
+
+#ui-datepicker-div
+{
+    z-index: 1;
+    background-color: #ffff7f;
+    position: absolute;
+    top: 100%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    border: 5px solid green;
+    text-align: center;
+    background-color: lightgreen;
+    width: 100px;
+    padding: 2px;
+    cursor: pointer;
+    font-family: "Arial Unicode MS";
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #ffff7f;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown0 {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content0 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: lightgreen;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-meal-content0 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: lightgreen;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: lightgreen;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-meal-content1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: lightgreen;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: lightgreen;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-meal-content2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: lightgreen;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: lightgreen;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-meal-content3 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: lightgreen;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    font-family: "Arial Unicode MS";
+    padding: 4px 4px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-meal-content a {
+    color: black;
+    font-family: "Arial Unicode MS";
+    padding: 4px 4px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ffff7f}
+
+.dropdown-meal-content a:hover {background-color: #ffff7f}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content
+container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.green_font {
+    color: green;
+}
+
+.red_font {
+    color: red;
+}
+
+.hide {display: none;}
+
+
+
+
+
